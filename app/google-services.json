@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "839312364733",
+    "firebase_url": "https://beshopbr.firebaseio.com",
+    "project_id": "beshopbr",
+    "storage_bucket": "beshopbr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839312364733:android:0c383ff32744cfe2",
+        "android_client_info": {
+          "package_name": "com.beshop.develloper.beshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839312364733-nftijpofsqtrlmoevpo7q7k7atg5fggg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beshop.develloper.beshop",
+            "certificate_hash": "21595df020f0fd8afe884e8f70ede40b9616647b"
+          }
+        },
+        {
+          "client_id": "839312364733-uf7ql85lpgmpe7s3jkrnifn16dn4igsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9cY-YsyUxE7lggI0qtOOFW7kPEocRhtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839312364733-uf7ql85lpgmpe7s3jkrnifn16dn4igsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
