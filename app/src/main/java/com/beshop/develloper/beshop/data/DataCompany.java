@@ -10,13 +10,12 @@ import java.util.Map;
  */
 
 public class DataCompany {
-    public HashMap<String,String> Beacons;
-    public HashMap<String,String> Informations;
+    public HashMap<String, String> Beacons;
+    public HashMap<String, String> Informations;
     public String Name;
 
-    public DataCompany()
-    {
-       Beacons = new HashMap<String,String>();
-        Informations = new HashMap<String,String>();
+    public DataCompany() {
+        Beacons = new HashMap<String, String>();
+        Informations = new HashMap<String, String>();
     }
 }

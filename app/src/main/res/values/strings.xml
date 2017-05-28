@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Beshop</string>
     <string name="local_service_started">100</string>
+    <string name="process_location_service">locationservice</string>
 </resources>

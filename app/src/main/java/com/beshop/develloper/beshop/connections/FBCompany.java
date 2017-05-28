@@ -168,4 +168,11 @@ public class FBCompany {
         keyRef.addListenerForSingleValueEvent(valueListener);
     }
 
+    public static DataCompany CreateCompany(String name) {
+        DataCompany data = new DataCompany();
+        data.Name = name;
+        return data;
+    }
+
+
 }

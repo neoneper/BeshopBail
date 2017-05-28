@@ -102,7 +102,7 @@ public class FBInformation {
     }
 
 
-    public void setCompany(DataInformation information) {
+    public void setInformation(DataInformation information) {
         setInformation(information, null);
     }
 
@@ -112,7 +112,7 @@ public class FBInformation {
             throw new NullPointerException();
         }
 
-        final DatabaseReference keyRef = this.getDatabaseRefForKey(information.Name);
+        final DatabaseReference keyRef = this.getDatabaseRefForKey(information.Beacon);
 
         // company.CreatedDate = new Date().getTime();
 
@@ -167,5 +167,16 @@ public class FBInformation {
         DatabaseReference keyRef = this.getDatabaseRefForKey(key);
         InformationValueEventListener valueListener = new InformationValueEventListener(callback);
         keyRef.addListenerForSingleValueEvent(valueListener);
+    }
+
+    public static DataInformation CreateInformation(String title, String company, String beacon, String description)
+    {
+        DataInformation data = new DataInformation();
+        data.Name = title;
+        data.Description = description;
+        data.Company=company;
+        data.Beacon=beacon;
+        data.Type="Promo";
+        return data;
     }
 }
